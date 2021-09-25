@@ -44,7 +44,7 @@ namespace Piranha.AspNetCore.Helpers
         public string Host { get; set; }
 
         /// <summary>
-        /// Gets/sets the optional site prefic of the requested site
+        /// Gets/sets the optional site prefix of the requested site
         /// if it's routed with `host/prefix`.
         /// </summary>
         public string SitePrefix { get; set; }
@@ -60,7 +60,7 @@ namespace Piranha.AspNetCore.Helpers
         public SiteDescription Description { get; set; } = new SiteDescription();
 
         /// <summary>
-        /// Default internal constructur.
+        /// Default internal constructor.
         /// </summary>
         internal SiteHelper(IApi api)
         {

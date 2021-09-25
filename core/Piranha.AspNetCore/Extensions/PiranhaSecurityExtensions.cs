@@ -26,7 +26,7 @@ using Piranha.Models;
 public static class PiranhaSecurityExtensions
 {
     /// <summary>
-    /// Adds authorization with the given application policies to the aplication.
+    /// Adds authorization with the given application policies to the application.
     /// </summary>
     /// <param name="builder">The service builder</param>
     /// <param name="options">The security options</param>
@@ -56,7 +56,7 @@ public static class PiranhaSecurityExtensions
     /// <summary>
     /// Filters the current sitemap collection to only include the items the
     /// current user has access to. Please note that this only filters the
-    /// current collection, it doesn't filter the entire strucure.
+    /// current collection, it doesn't filter the entire structure.
     /// </summary>
     /// <param name="sitemap">The sitemap items</param>
     /// <param name="user">The current user</param>

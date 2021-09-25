@@ -23,7 +23,7 @@ namespace Piranha.AspNetCore.Helpers
         private readonly IApi _api;
 
         /// <summary>
-        /// Default internal constructur.
+        /// Default internal constructor.
         /// </summary>
         internal MediaHelper(IApi api)
         {

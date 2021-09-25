@@ -19,7 +19,7 @@ namespace Piranha.AspNetCore.Services
     /// <summary>
     /// The main application service. This service must be
     /// registered as a scoped service as it contains information
-    /// about the current requst.
+    /// about the current request.
     /// </summary>
     public interface IApplicationService
     {
