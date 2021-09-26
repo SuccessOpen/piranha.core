@@ -76,7 +76,7 @@ namespace Piranha.Manager
         public List<string> Styles { get; private set; }
 
         /// <summary>
-        /// The currently registrered partial views.
+        /// The currently registered partial views.
         /// </summary>
         public List<string> Partials { get; private set; }
 
